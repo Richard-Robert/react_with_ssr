@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+.wrapper-div {
+  header {
+    height: 20px;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    background-color: yellow;
+    h1 {
+      margin: 0;
+      text-align: center;
+      line-height: 1;
+      position: relative;
+      top: calc(50% - 16px);
+    }
+  }
+  main {
+    height: calc(100vh - 40px);
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+
+    .intro-div {
+      margin: 20px;
+      border: 1px solid black;
+      height: 400px;
+      display: flex;
+      picture {
+        flex: 1;
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+      .picture-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+      }
+    }
+    .content-div {
+      flex: auto;
+      background-color: brown;
+    }
+  }
+}
