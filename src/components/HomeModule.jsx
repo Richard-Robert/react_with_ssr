@@ -38,7 +38,7 @@ const HomeModule = (props) => {
     <div className="wrapper-div">
       <header>
         <h1>
-          This is a static template, there is no bundler or bundling involved!!
+          This is a static template, there is no bundler or bundling involved!!!
         </h1>
       </header>
       <main className="main">
